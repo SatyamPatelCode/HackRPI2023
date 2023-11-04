@@ -4,7 +4,7 @@ html , body {
 }
 
 #myHeader {
-    background-color: skyblue;
+    background-color: rgb(61, 180, 227);
     color: darkgrey;
     padding: 5px 20px;
 }
@@ -18,7 +18,7 @@ html , body {
 }
 
 #subheader {
-    color: darkgray;
+    color: rgb(0, 0, 0);
     font-size: medium;
 }
 
@@ -32,6 +32,7 @@ html , body {
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
+    float: right;
 }
 
 body {
@@ -69,7 +70,7 @@ input {
 
 #footer {
     height: 75px;
-    background-color: skyblue;
+    background-color: rgb(13, 143, 194);
     color: white;
     padding: 20px;
     text-align: center;
@@ -89,7 +90,9 @@ input {
 }
 
 #section {
-    margin-left: 50px
+    margin-left: 50px;
+    padding: 20px;
+    background-color: ;
 }
 
 #addsection {
