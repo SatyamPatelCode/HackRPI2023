@@ -31,6 +31,10 @@ html , body {
     
 }
 
+.forms {
+    text-align: center;
+}
+
 #footer {
     height: 330px;
     background-color: rgb(255, 0, 0);
