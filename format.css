@@ -30,7 +30,8 @@
 #footer {
     background-color: rgb(255, 0, 0);
     color: white;
-    
+    padding: 20px;
+    text-align: center;
 }
 
 .foot_link {
@@ -39,4 +40,5 @@
 
 #watermark {
     height: 75px;
+    margin-bottom: -45px;
 }
