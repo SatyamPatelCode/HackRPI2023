@@ -4,7 +4,7 @@ html , body {
 }
 
 #myHeader {
-    background-color: #c41d1d;
+    background-color: skyblue;
     color: darkgrey;
     padding: 5px 20px;
 }
@@ -35,7 +35,8 @@ html , body {
 }
 
 body {
-    
+    background-color: white;
+    color: black;
 }
 
 .forms {
@@ -68,7 +69,7 @@ input {
 
 #footer {
     height: 75px;
-    background-color: rgb(255, 0, 0);
+    background-color: skyblue;
     color: white;
     padding: 20px;
     text-align: center;
