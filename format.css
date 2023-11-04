@@ -75,3 +75,7 @@ input {
     height: 75px;
     margin-bottom: -45px;
 }
+
+#signUp {
+    text-align: center;
+}
