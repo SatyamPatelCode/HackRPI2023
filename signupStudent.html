@@ -12,17 +12,29 @@
     <body>
         <div id = "myHeader">
             <h1>SOHR <span>Search for Office Hours at Rensselaer</span></h1>
-            <a href="" class="logInButton"><strong>Log in</strong></a>
+            <a href="" class="logInButton"><strong>Log In</strong></a>
         </div>
 
-        <div class = "forms">
-            <h2>Quick search for a class</h2>
+        <div id = "signUp">
+        <h2>Sign up as a Student</h2>
+        <form action="submit.php" method="post">
+            <label for="name">First Name</label><br>
+            <input type="text" id="first name" name="first name" required> <br>
 
-            <h2>Want to make a course?</h2>
+            <label for="name">Last Name</label><br>
+            <input type="text" id="last name" name="last name" required> <br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
             
-
-            <h2>Want to save your classes?</h2>
+            <input type="submit" value="Submit"><br>
+        </form>
         </div>
+
+
+
+
+        
         <div id = "footer"> 
             <p>
                 <a class = foot_link href="">About</a> &emsp;
