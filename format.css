@@ -26,3 +26,17 @@
     font-size: 20px;
     
 }
+
+#footer {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    
+}
+
+.foot_link {
+    color: white;
+}
+
+#watermark {
+    height: 75px;
+}
