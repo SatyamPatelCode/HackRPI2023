@@ -35,8 +35,32 @@ html , body {
     text-align: center;
 }
 
+select {
+    margin: 0 10px 10px 0;
+}
+
+input {
+    margin: 0 10px 10px 0;
+}
+
+#host {
+    margin: 10px 0 15px 0;
+}
+
+#professor {
+    margin: 0 0 10px 0;
+}
+
+#ta {
+    margin: 0 0 10px 20px;
+}
+
+#mentor {
+    margin: 0 0 10px 20px;
+}
+
 #footer {
-    height: 330px;
+    height: 75px;
     background-color: rgb(255, 0, 0);
     color: white;
     padding: 20px;

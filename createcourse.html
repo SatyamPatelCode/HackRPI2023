@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hackathon 2023</title>
+        <meta charset="UTF-8" />
+        <meta viewport="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="jquery-3.6.1.min.js">
+        </script>
+        <script type="text/javascript" src="hackathon.js"></script>
+        <script type="text/javascript" src="createcourse.js"></script>
+        <link rel="stylesheet" href="format.css" type="text/css" />
+    </head>
+    <body>
+        <div id = "myHeader">
+            <h1>SOHR <span>Search for Office Hours at Rensselaer</span></h1>
+            <a href="" class="logInButton"><strong>Sign out</strong></a>
+        </div>
+
+        <h2>Add a Course</h2>
+        <form action="submit.php" method="post">
+            <label for="courseid">Course ID:</label>
+            <input type="text" id="courseid" name="courseid">
+            <input type="submit" id="addsection" value="Add Section">
+            
+            <div id="section">
+                <h3>Section 1</h3>
+                <label for="date">Date:</label>
+                <select name="date" id="date">
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                </select><br>
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="time">
+                <p id="host"><u>Host</u></p>
+                <input type="checkbox" id="professor" name="professor" value="Professor">
+                <label for="professor">Professor</label>
+                <input type="checkbox" id="ta" name="ta" value="TA">
+                <label for="ta">TA</label>
+                <input type="checkbox" id="mentor" name="mentor" value="Mentor">
+                <label for="mentor">Mentor</label><br>
+                <p id="host"><u>Names of hosts</u></p>
+                <label for="profname">Professor:</label>
+                <input type="text" id="profname" name="profname">
+                <label for="taname">TA(s):</label>
+                <input type="text" id="taname" name="taname">
+                <label for="mentname">Mentor(s):</label>
+                <input type="text" id="mentname" name="mentname"><br>
+            </div>
+
+            <input type="submit">
+        </form>
+
+        <div id = "footer"> 
+            <p>
+                <a class = foot_link href="">About</a> &emsp;
+                <a class = foot_link href="">Contact Us</a> &emsp;
+                Created by Cam Eich, Satyam Patel, and Emannuel Usman
+                <img id = "watermark" src = "bird watermark.png">
+            </p>
+        </div>
+    </body>
+</html>
