@@ -1,3 +1,7 @@
+html , body {
+    height: 100%;
+}
+
 #myHeader {
     background-color: #333333;
     color: darkgrey;
@@ -28,6 +32,7 @@
 }
 
 #footer {
+    height: 330px;
     background-color: rgb(255, 0, 0);
     color: white;
     
@@ -38,5 +43,8 @@
 }
 
 #watermark {
-    height: 75px;
+    min-height: 100%;
+    margin-bottom: -330px;
+    position: relative;
+
 }
