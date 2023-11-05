@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hackathon 2023</title>
+        <meta charset="UTF-8" />
+        <meta viewport="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
+        <script type="text/javascript" src="hackathon.js"></script>
+        <script type="text/javascript" src="createcourse.js"></script>
+        <link rel="stylesheet" href="format.css" type="text/css" />
+    </head>
+    <body>
+        <div id = "myHeader">
+            <img id="headimage" src="bird watermark.png">
+            <h1>SOHR <span id="subheader">Search for Office Hours at Rensselaer</span><a href="" class="logInButton"><strong>Sign out</strong></a></h1>
+        </div>
+
+        <h2>Your Courses</h2>
+        <p>
+            <button type="button" id="addcourse">Add Course</button>
+        </p>
+        <form action="submit.php" method="post">
+            <label for="courseid">Course ID:</label>
+            <input type="text" id="courseid" name="courseid">
+            
+            <input type="submit" id="submission">
+        </form>
+
+        <div id = "footer"> 
+            <p>
+                <a class = foot_link href="">About</a> &emsp;
+                <a class = foot_link href="">Contact Us</a> &emsp;
+                Created by Cam Eich, Satyam Patel, and Emannuel Usman
+                <img id = "watermark" src = "bird watermark.png">
+            </p>
+        </div>
+    </body>
+</html>
