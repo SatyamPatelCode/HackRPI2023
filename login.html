@@ -12,12 +12,12 @@
     <body>
         <div id = "myHeader">
             <img id="headimage" src="bird watermark.png">
-            <h1>SOHR <span id="subheader">Search for Office Hours at Rensselaer</span><a href="" class="logInButton"><strong>Log In</strong></a></h1>
+            <h1>SOHR <span id="subheader">Search for Office Hours at Rensselaer</span></h1>
         </div>
 
         <div id = "signUp">
-        <h2>Sign up as a Professor</h2>
-        <form action="signupprofessor.php" method="post">
+        <h2>Login</h2>
+        <form action="login.php" method="post"> <!--need to create this php file-->
             <label for="username">Username</label>
             <input type="text" name="username" placeholder="Username" required>
             <label for="password">Password</label>
@@ -27,7 +27,10 @@
         </form>
         </div>
 
-
+        <!--button here that goes back to the other page.-->
+        <div class = "forms">
+            <a href= "index.html" id ="goBack">Go back</a>
+        </div>
 
 
         
