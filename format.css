@@ -6,7 +6,7 @@ html , body {
 #myHeader {
     background-color: rgb(61, 180, 227);
     color: darkgrey;
-    padding: 5px 20px;
+    padding: 0px 20px;
 }
 
 #myHeader h1 {
@@ -33,6 +33,7 @@ html , body {
     cursor: pointer;
     font-size: 20px;
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -70,7 +71,7 @@ input {
 
 #footer {
     height: 75px;
-    background-color: rgb(13, 143, 194);
+    background-color: rgb(61, 180, 227);
     color: white;
     padding: 20px;
     text-align: center;
@@ -91,8 +92,10 @@ input {
 
 #section {
     margin-left: 50px;
-    padding: 20px;
-    background-color: ;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: rgb(61, 180, 227);
+    border-radius: 20px;
 }
 
 #addsection {
@@ -103,4 +106,8 @@ input {
     height: 220px;
     margin-bottom: -190px;
     margin-left: -20px;
+}
+
+#submission {
+    margin: 10px 0 10px 0;
 }
