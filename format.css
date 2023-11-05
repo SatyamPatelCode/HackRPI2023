@@ -37,20 +37,7 @@ html , body {
 }
 
 .signUpButton {
-    display: inline-block;
-    padding: 10px 15px 10px 15px;
-    background-color: rgb(61, 180, 227);
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* CSS */
-.signUpButton {
+  text-decoration: none;
   appearance: button;
   background-color: #1899D6;
   border: solid transparent;
@@ -78,7 +65,7 @@ html , body {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100%;
+  width: 50%;
 }
 
 .signUpButton:after {
