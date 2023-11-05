@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Get the H1 element by its ID
-    var title = document.getElementById("myHeader");
+    var title = document.getElementById("headimage");
     
     // Add a click event listener to the H1 element
     title.addEventListener("click", function() {

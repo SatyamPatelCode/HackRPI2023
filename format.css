@@ -16,7 +16,6 @@ html , body {
     font-family: cursive;
     font-weight: bold;
     margin-left: 10px;
-    cursor: pointer;
 }
 
 #subheader {
@@ -173,6 +172,7 @@ input {
     height: 220px;
     margin-bottom: -190px;
     margin-left: -20px;
+    cursor: pointer;
 }
 
 #submission {
