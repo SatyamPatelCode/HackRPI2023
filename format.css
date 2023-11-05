@@ -7,6 +7,7 @@ html , body {
     background-color: rgb(61, 180, 227);
     color: darkgrey;
     padding: 0px 20px;
+
 }
 
 #myHeader h1 {
@@ -15,6 +16,7 @@ html , body {
     font-family: cursive;
     font-weight: bold;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #subheader {
