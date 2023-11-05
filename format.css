@@ -36,6 +36,19 @@ html , body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.signUpButton {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(61, 180, 227);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: white;
     color: black;
@@ -75,6 +88,7 @@ input {
     color: white;
     padding: 20px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .foot_link {
