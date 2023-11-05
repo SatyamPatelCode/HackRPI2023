@@ -6,7 +6,7 @@
         <meta viewport="width=device-width, initial-scale=1.0" />
         <script type="text/javascript" src="jquery-3.6.1.min.js"></script>
         <script type="text/javascript" src="hackathon.js"></script>
-        <script type="text/javascript" src="createcourse.js"></script>
+        <script type="text/javascript" src="studentAddCourse.js"></script>
         <link rel="stylesheet" href="format.css" type="text/css" />
     </head>
     <body>
@@ -20,8 +20,10 @@
             <button type="button" id="addcourse">Add Course</button>
         </p>
         <form action="submit.php" method="post">
-            <label for="courseid">Course ID:</label>
-            <input type="text" id="courseid" name="courseid">
+            <div id="courses">
+                <label for="courseid">Course ID:</label>
+                <input type="text" id="courseid" name="courseid">
+            </div>
             
             <input type="submit" id="submission">
         </form>
