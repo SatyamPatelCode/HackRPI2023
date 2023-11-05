@@ -109,5 +109,13 @@ input {
 }
 
 #submission {
-    margin: 10px 0 10px 0;
+    float: center;
+    background-color: rgb(61, 180, 227);
+    border-radius: 20px;
+    margin: 10px 0 10px 0px;
+    padding: 10px 30px 10px 30px;
+}
+u {
+    font-size: large;
+    font-weight: bold;
 }
