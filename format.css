@@ -7,6 +7,7 @@ html , body {
     background-color: rgb(61, 180, 227);
     color: darkgrey;
     padding: 0px 20px;
+
 }
 
 #myHeader h1 {
@@ -15,6 +16,7 @@ html , body {
     font-family: cursive;
     font-weight: bold;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #subheader {
@@ -181,7 +183,7 @@ input {
     display: inline-block;
     padding: 10px 15px 10px 15px;
     background-color: rgb(61, 180, 227);
-    color: #333333;
+    color: white;
     text-decoration: none;
     border: none;
     border-radius: 20px;
@@ -189,7 +191,6 @@ input {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     float: center;
-    background-color: rgb(61, 180, 227);
     border-radius: 20px;
     margin: 10px 0 10px 0px;
     padding: 10px 30px 10px 30px;
